@@ -34,8 +34,11 @@ with st.form("registration_form"):
     
     # User needs to select exactly one program from the list
     program_options = [
-        "Current Student Executive MBA",
-        "Alumnus Executive MBA",
+        "FT MBA",
+        "PT MBA",
+        "EMBA",
+        "Online MBA",
+        "Executive Education Program"
     ]
     selected_program = st.radio(
         "Please select your current or past program of study *",
